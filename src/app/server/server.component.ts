@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ServerComponent implements OnInit {
 
+  title : string = "Git repo check"
   constructor() { }
 
   ngOnInit() {
